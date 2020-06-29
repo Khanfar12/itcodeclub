@@ -25,7 +25,7 @@ class UserController extends Controller
     public function index()
     {
          $data =  $this->repo->all();
-
+            $ali = 10;
          return view('admin.user.index',compact('data')) ;
     }
 
